@@ -1,0 +1,58 @@
+# ----------------------------
+# Unity 标准 .gitignore
+# 此文件告诉 git 哪些文件不应纳入版本控制
+# 这些通常是 Unity 自动生成的临时文件、缓存、构建产物
+# ----------------------------
+
+# Unity 生成的临时文件夹（最重要,可能数 GB）
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures 文件夹
+/[Mm]emoryCaptures/
+/[Rr]ecords/
+
+# Plastic SCM 元数据（已删除,这里再忽略以防万一）
+/[Pp]lastic/
+.plastic/
+
+# Visual Studio / VS Code / Rider 等编辑器配置
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity 构建产物
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics 生成的文件
+crashlytics-build.properties
+crashlytics-build/
+sysinfo.txt
+
+# Gradle（如果使用 Android 导出）
+.gradle/
+gradle/
+
+# 其他
+*.log
+.DS_Store
+Thumbs.db
