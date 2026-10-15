@@ -13,8 +13,11 @@ MonoBehaviour:
   m_Name: MilkFrogProfile
   m_EditorClassIdentifier: 
   touchRadius: 0.5
+  dragLayers:
+    serializedVersion: 2
+    m_Bits: 2048
   dragFrequency: 15
-  dragDamping: 0.7
+  dragDamping: 0.5
   maxForceFactor: 1500
   groundLayers:
     serializedVersion: 2
